@@ -170,7 +170,7 @@ small,
 /* Pages
 ================================================== */
 .hero {
-  background: #ffffff;
+  background: #fdd93d;
   padding: 5rem 5rem;
 }
 
@@ -311,6 +311,7 @@ span.post-read-more a {
   color: rgba(0, 0, 0, 0.44);
   align-items: center;
   display: inline-block;
+  float: right;
   width: 30px;
   height: 30px;
   line-height: 30px;
@@ -690,6 +691,6 @@ span.navigation:before {
 }
 
 .hover-opacity:hover {
-  transition: all 0.3s;
+  transition: all.3s;
   opacity: 0.8;
 }

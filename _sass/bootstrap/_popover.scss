@@ -44,7 +44,7 @@
 
   .arrow::before,
   .arrow::after {
-    border-width: $popover-arrow-height calc($popover-arrow-width / 2) 0;
+    border-width: $popover-arrow-height ($popover-arrow-width / 2) 0;
   }
 
   .arrow::before {
@@ -70,8 +70,7 @@
 
   .arrow::before,
   .arrow::after {
-    border-width: calc($popover-arrow-width / 2) $popover-arrow-height
-      calc($popover-arrow-width / 2) 0;
+    border-width: ($popover-arrow-width / 2) $popover-arrow-height ($popover-arrow-width / 2) 0;
   }
 
   .arrow::before {
@@ -94,8 +93,7 @@
 
   .arrow::before,
   .arrow::after {
-    border-width: 0 calc($popover-arrow-width / 2) $popover-arrow-height
-      calc($popover-arrow-width / 2);
+    border-width: 0 ($popover-arrow-width / 2) $popover-arrow-height ($popover-arrow-width / 2);
   }
 
   .arrow::before {
@@ -115,7 +113,7 @@
     left: 50%;
     display: block;
     width: $popover-arrow-width;
-    margin-left: calc($popover-arrow-width / -2);
+    margin-left: ($popover-arrow-width / -2);
     content: "";
     border-bottom: $popover-border-width solid $popover-header-bg;
   }
@@ -133,8 +131,7 @@
 
   .arrow::before,
   .arrow::after {
-    border-width: calc($popover-arrow-width / 2) 0
-      calc($popover-arrow-width / 2) $popover-arrow-height;
+    border-width: ($popover-arrow-width / 2) 0 ($popover-arrow-width / 2) $popover-arrow-height;
   }
 
   .arrow::before {
@@ -162,6 +159,7 @@
     @extend .bs-popover-left;
   }
 }
+
 
 // Offset the popover to account for the popover arrow
 .popover-header {
