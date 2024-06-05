@@ -5,7 +5,7 @@ baseurl: ""
 permalink: "/:title/"
 logo: "assets/images/logo.png"
 favicon: "assets/images/favicon.ico"
-author: Sal
+author: HANKIM
 paginate: 30
 disqus: "demowebsite"
 locale: ko_KR
@@ -20,23 +20,23 @@ kramdown:
 sass:
   sass_dir: _sass
   style: :compressed
-ganalytics: UA-113961478-1
+# ganalytics: UA-113961478-1
 
 # Authors
 authors:
-  KinHanKyul:
+  HANKIM:
     name: HANKIM
     display_name: HANKIM
-    avatar: "assets/images/sal.png"
+    avatar: "assets/images/logo.png"
     email: forhankyul@gmail.com
     web: https://hankimkor.github.io
     description: "HELLO"
 
 # Social
-social:
-  instagram: https://www.instagram.com/bootstrapstarter/
-  facebook: https://www.facebook.com/bootstrapstartercom-346329609045284
-  twitter: https://twitter.com/bstartercom
+# social:
+#   instagram: https://www.instagram.com/bootstrapstarter/
+#   facebook: https://www.facebook.com/bootstrapstartercom-346329609045284
+#   twitter: https://twitter.com/bstartercom
 
 # Plugins
 plugins:
