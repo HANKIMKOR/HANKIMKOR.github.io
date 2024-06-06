@@ -21,3 +21,8 @@ group :jekyll_plugins do
     gem 'tzinfo-data'
     gem 'tzinfo'
 end
+
+
+# Additional gems
+gem 'sassc', '~> 2.0'  # sassc gem for SCSS processing
+gem 'csv'  # csv gem for CSV support
