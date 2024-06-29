@@ -5,11 +5,11 @@ permalink: "/about/"
 # image: assets/images/screenshot.png
 ---
 
-Hankyul Kim </br>
-Developer who loves history </br>
-forhankyul@gmail.com </br>
-Linkedin: https://linkedin.com/ </br>
-Gibhub: https://github.com/hankimkor/ </br>
+Hankyul Kim
+Developer who loves history
+forhankyul@gmail.com
+Linkedin: https://linkedin.com/
+Gibhub: https://github.com/hankimkor/
 Blog: https://hankimkor.github.io/
 
 ## Work Experience
