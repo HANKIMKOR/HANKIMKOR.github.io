@@ -5,55 +5,40 @@ permalink: "/about/"
 # image: assets/images/screenshot.png
 ---
 
-Hankyul Kim
-Developer who loves history
-forhankyul@gmail.com
-Linkedin: https://linkedin.com/
-Gibhub: https://github.com/hankimkor/
-Blog: https://hankimkor.github.io/
+## Hankyul Kim
 
-## Work Experience
+**Developer who loves history**  
+📧 [forhankyul@gmail.com](mailto:forhankyul@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/hankyul-kim-a09aa2156/) | [GitHub](https://github.com/hankimkor) | [Blog](https://hankimkor.github.io/)
 
-### Braindive, Seoul, Korea
+### Work Experience
 
-August 2023 -
+- **Braindive, Seoul, Korea**  
+  _Developer_  
+  August 2023 - Present
 
-- Developer
+- **Zigbang, Seoul, Korea**  
+  _Team Leader, Sales Planning Team_  
+  April 2020 - May 2023
 
-### Zigbang, Seoul, Korea
+- **BoodongsanDiet, Seoul, Korea**  
+  _Manager, Sales Team_  
+  August 2015 - March 2020
 
-April 2020 - May 2023
+- **Republic of Korea Airforce, Daegu, Korea**  
+  _Weapons Assignment Officer_  
+  July 2012 - June 2015
 
-- Team Leader at Sales Planning Team
-- aassdf
-- asdf
+### Education
 
-### BoodongsanDiet, Seoul, Korea
+- **Korea University, Seoul, Korea**  
+  _Bachelor of Arts in History_  
+  March 2007 - August 2011
 
-August 2015 - March 2020
+### Technical Skills
 
-- Manager at Sales Team
-
-### Republic of Korea Airforce, Daegu, Korea
-
-July 2012 - June 2015
-
-- Weapons Assignment Officer
-
-## Education
-
-### Korea University, Seoul, Korea
-
-March 2007 - August 2011
-
-- Graduated from the Department of History, Bachelor of Arts
-
-## Technical Projects
-
-SmileBogun
-
-- Flutter, Dart, HTML, CSS, JavaScript, React JS
-
-OdoSaju
-
-- Flutter, Dart, SQLite
+- **Languages**: Dart, JavaScript, HTML, CSS, Python, TypeScript
+- **Frameworks**: Flutter, React, Nest.js, Next.js
+- **Databases**: MySQL, SQLite, PostgreSQL
+- **Tools**: Git, GitHub, Bitbucket, VS Code, JIRA, Slack, Postman
+- **APIs**: RESTful API, GraphQL
