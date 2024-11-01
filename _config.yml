@@ -16,7 +16,12 @@ feed_update_frequency: 1
 markdown: kramdown
 kramdown:
   syntax_highlighter_opts:
-    disable: true
+    css_class: "highlight"
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+      start_line: 1
 sass:
   sass_dir: _sass
   style: compressed

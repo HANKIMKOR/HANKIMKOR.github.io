@@ -1,0 +1,133 @@
+.highlight {
+  background: #2b2b2b;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.highlight pre {
+  margin: 0;
+  color: #a9b7c6;
+}
+
+/* 키워드 (if, else, return 등) */
+.highlight .k,
+.highlight .kc,
+.highlight .kd,
+.highlight .kn,
+.highlight .kp,
+.highlight .kr,
+.highlight .kt {
+  color: #cc7832;
+  font-weight: bold;
+}
+
+/* 문자열 */
+.highlight .s,
+.highlight .s1,
+.highlight .s2,
+.highlight .sb {
+  color: #6a8759;
+}
+
+/* 주석 */
+.highlight .c,
+.highlight .c1,
+.highlight .cm {
+  color: #808080;
+  font-style: italic;
+}
+
+/* 숫자 */
+.highlight .mi,
+.highlight .mf {
+  color: #6897bb;
+}
+
+/* 함수명 */
+.highlight .nf,
+.highlight .fm {
+  color: #ffc66d;
+}
+
+/* 클래스명 */
+.highlight .nc {
+  color: #a9b7c6;
+  font-weight: bold;
+}
+
+/* 변수 */
+.highlight .nv {
+  color: #9876aa;
+}
+
+/* 연산자 */
+.highlight .o {
+  color: #e8ba36;
+}
+
+/* 괄호 등 기본 텍스트 */
+.highlight .p {
+  color: #a9b7c6;
+}
+
+/* 상수 */
+.highlight .no {
+  color: #9876aa;
+  font-weight: bold;
+}
+
+/* import, package 등의 키워드 */
+.highlight .kn {
+  color: #cc7832;
+}
+
+/* 어노테이션 */
+.highlight .nd {
+  color: #bbb529;
+}
+
+/* 타입 */
+.highlight .kt {
+  color: #ffc66d;
+}
+
+/* 문자열 보간 */
+.highlight .si {
+  color: #cc7832;
+}
+
+/* 속성 */
+.highlight .na {
+  color: #9876aa;
+}
+
+/* 내장 함수/키워드 */
+.highlight .nb {
+  color: #cc7832;
+}
+
+/* 정규식 */
+.highlight .sr {
+  color: #6a8759;
+}
+
+/* 속성 키 (thumbColor, trackColor 등) */
+.highlight .na {
+  color: #9876aa; /* 보라색 */
+}
+
+/* 타입 (MaterialStateProperty, ScrollbarThemeData 등) */
+.highlight .nx {
+  color: #ffc66d; /* 노란색 */
+}
+
+/* 내장 객체/타입 (Colors 등) */
+.highlight .nb {
+  color: #cc7832; /* 주황색 */
+}
+
+/* 메서드 (all 등) */
+.highlight .n {
+  color: #a9b7c6; /* 회색 */
+}
