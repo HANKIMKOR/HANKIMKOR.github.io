@@ -1,60 +1,56 @@
 ---
 title: Home
 layout: default
-background: '/img/bg-index.jpg'
+background: "/img/bg-index.jpg"
 ---
 
 <!-- Home Intro
 ================================================== -->
-{% if page.url == "/" %} 
+{% if page.url == "/" %}
 <div class="rounded mb-5 hero">
   <div class="row align-items-center justify-content-between">
     <div class="col-md-6">
       <h1 class="font-weight-bold mb-4 serif-font">HANKIM</h1>
-      <p class="lead mb-4">직장인 / 개발자 / 역사를 전공한 역덕후<br>Office worker / Developer / History enthusiast</p>
-      <a href="{{site.baseurl}}/about" class="btn btn-dark text-white px-5 btn-lg">About me</a>
+      <p class="lead mb-4">
+        직장인 / 개발자 / 역사를 전공한 역덕후<br />Office worker / Developer /
+        History enthusiast
+      </p>
+      <a
+        href="{{site.baseurl}}/about"
+        class="btn btn-dark text-white px-5 btn-lg"
+        >About me</a
+      >
     </div>
     <div class="col-md-6 text-right pl-0 pl-lg-4">
-      <img class="intro" height="500" src="{{site.baseurl}}/assets/images/intro.png">      
+      <img
+        class="intro"
+        height="500"
+        src="{{site.baseurl}}/assets/images/intro.png"
+      />
     </div>
   </div>
 </div>
 {% endif %}
 
-<!-- Featured
-================================================== -->
-<section class="row">
-  {% for post in site.posts %}
-      {% if post.featured == true %}
-          <div class="col-md-4 mb-5">
-          {% include postbox.html %}
-          </div>
-      {% endif %}
-  {% endfor %}
-  </div>
-</section>
-
-<!-- Posts List with Sidebar (except featured)
-================================================== -->
+<!-- Posts List with Sidebar -->
 <section class="row">
   <div class="col-sm-8">
     <div class="row">
-      {% for post in paginator.posts %}
-      {% unless post.featured == true %}
+      {% assign posts_by_lang = site.posts | group_by: "lang" %} {% for post in
+      site.posts %}
       <div class="col-md-6 mb-5">
-        {% include postbox.html %}
+        <div class="card" data-lang="{{ post.lang }}">
+          {% include postbox.html %}
+        </div>
       </div>
-      {% endunless %}
       {% endfor %}
     </div>
     <!-- Pagination -->
     <div class="bottompagination">
       <span class="navigation" role="navigation">
-          {% include pagination.html %}
+        {% include pagination.html %}
       </span>
     </div>
   </div>
-  <div class="col-sm-4">
-    {% include sidebar.html %}
-  </div>
+  <div class="col-sm-4">{% include sidebar.html %}</div>
 </section>

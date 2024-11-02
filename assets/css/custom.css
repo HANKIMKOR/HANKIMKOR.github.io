@@ -1,7 +1,35 @@
-/* 
-Don't want to use sass and simply modify the stylesheet in the old css fashion? 
-Just customize your theme here.
-================================================== */
+/* 언어 선택 드롭다운 스타일 . */
+dropdown-menu {
+  min-width: 100px;
+}
 
-body {
+.dropdown-item {
+  padding: 0.25rem 1rem;
+  cursor: pointer;
+}
+
+/* 네비게이션 드롭다운 수정 */
+.nav-item.dropdown {
+  list-style: none;
+}
+
+.navbar-nav .dropdown-menu {
+  position: absolute;
+}
+
+.row-cols-1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  height: 100%;
+  width: 100%;
+  transition: all 0.3s ease;
+  order: 0;
 }
