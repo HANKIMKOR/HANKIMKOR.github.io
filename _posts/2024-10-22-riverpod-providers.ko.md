@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Riverpod Provider 완벽 가이드"
-lang: kr
+lang: ko
 ref: riverpod-providers
 categories: [Flutter, Dev]
 image: assets/images/category_dev.webp
