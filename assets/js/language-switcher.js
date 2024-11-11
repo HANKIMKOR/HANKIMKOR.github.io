@@ -2,53 +2,55 @@ document.addEventListener("DOMContentLoaded", function () {
   const currentLang = localStorage.getItem("blogLanguage") || "ko";
   document.documentElement.setAttribute("lang", currentLang);
 
-  const cards = document.querySelectorAll(".card[data-lang]");
-  cards.forEach((card) => {
-    const cardLang = card.getAttribute("data-lang");
-    if (cardLang === currentLang) {
-      card.style.display = "block";
-    } else {
-      card.style.display = "none";
-    }
-  });
+  // Initial layout
+  updatePostLayout(currentLang);
 
+  // Setup language switcher dropdown handlers
   document.querySelectorAll(".dropdown-item[data-lang]").forEach((element) => {
     element.addEventListener("click", function (e) {
       e.preventDefault();
       const lang = this.getAttribute("data-lang");
-      setLanguage(lang, true);
+      setLanguage(lang);
     });
   });
 });
 
-function setLanguage(lang, reload = false) {
+function setLanguage(lang) {
   const prevLang = localStorage.getItem("blogLanguage");
-  console.log("=== Language Change ===");
-  console.log("Previous:", prevLang, "New:", lang);
 
   if (prevLang !== lang) {
     localStorage.setItem("blogLanguage", lang);
     document.documentElement.setAttribute("lang", lang);
-
-    const cards = document.querySelectorAll(".card[data-lang]");
-    let visibleIndex = 0;
-
-    cards.forEach((card, index) => {
-      const cardLang = card.getAttribute("data-lang");
-      console.log(
-        `Card ${index + 1}: lang=${cardLang}, order=${card.style.order}`
-      );
-
-      if (cardLang === lang) {
-        card.style.display = "block";
-        card.style.order = visibleIndex;
-        console.log(`-> Set visible, new order: ${visibleIndex}`);
-        visibleIndex++;
-      } else {
-        card.style.display = "none";
-        card.style.order = cards.length;
-        console.log(`-> Set hidden, new order: ${cards.length}`);
-      }
-    });
+    updatePostLayout(lang);
   }
+}
+
+function updatePostLayout(lang) {
+  const container = document.querySelector(".row");
+  const cards = Array.from(document.querySelectorAll(".card[data-lang]"));
+
+  // First, hide all cards and remove them from the flow
+  cards.forEach((card) => {
+    const cardLang = card.getAttribute("data-lang");
+    const parentCol = card.closest(".col-md-6");
+
+    if (cardLang === lang) {
+      parentCol.classList.remove("d-none");
+      parentCol.style.order = "initial";
+    } else {
+      parentCol.classList.add("d-none");
+    }
+  });
+
+  // Force a reflow
+  container.offsetHeight;
+
+  // Update the grid layout
+  const visibleCards = Array.from(
+    document.querySelectorAll(".col-md-6:not(.d-none)")
+  );
+  visibleCards.forEach((card, index) => {
+    card.style.gridRow = `auto`;
+    card.style.gridColumn = `auto`;
+  });
 }
