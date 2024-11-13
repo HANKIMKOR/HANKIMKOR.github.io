@@ -4,7 +4,7 @@ title: "Flutter에서 커스텀 점 로딩 인디케이터 만들기"
 lang: ko
 ref: custom-dot-loading
 categories: [Flutter, Dev]
-image: assets/images/category_dev.webp
+image: assets/images/category_flutter.webp
 ---
 
 이번 포스트에서는 Flutter에서 점(...)이 애니메이션되는 커스텀 로딩 인디케이터를 만드는 방법을 설명하겠습니다. 이 로딩 인디케이터는 세 개의 점이 순차적으로 페이드 인/아웃되면서 부드러운 로딩 애니메이션 효과를 만듭니다.

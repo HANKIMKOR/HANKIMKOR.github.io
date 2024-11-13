@@ -4,7 +4,7 @@ title: "Next.js에서 구글 폰트 적용하기"
 lang: ko
 ref: nextjs-google-fonts
 categories: [Next.js, Web, Dev]
-image: assets/images/category_dev.webp
+image: assets/images/category_next-js.webp
 ---
 
 ## 소개

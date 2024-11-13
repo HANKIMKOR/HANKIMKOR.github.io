@@ -4,7 +4,7 @@ title: "Applying Google Fonts in Next.js"
 lang: en
 ref: nextjs-google-fonts
 categories: [Next.js, Web, Dev]
-image: assets/images/category_dev.webp
+image: assets/images/category_next-js.webp
 ---
 
 ## Introduction

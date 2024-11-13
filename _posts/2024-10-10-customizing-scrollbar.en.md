@@ -5,7 +5,7 @@ excerpt: "Learn how to customize scrollbars in Flutter applications."
 lang: en
 ref: custom-scrollbar
 categories: [Flutter, Dev]
-image: assets/images/category_dev.webp
+image: assets/images/category_flutter.webp
 ---
 
 In Flutter, you can easily customize the default scrollbar using the `ScrollbarTheme` widget. This allows you to adjust the color, thickness, and visibility of the scrollbar. Below is an example of how to customize the scrollbar.

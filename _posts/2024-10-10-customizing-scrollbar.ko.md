@@ -4,7 +4,7 @@ title: "Flutter에서 스크롤바 커스터마이즈하기"
 lang: ko
 ref: custom-scrollbar
 categories: [Flutter, Dev]
-image: assets/images/category_dev.webp
+image: assets/images/category_flutter.webp
 ---
 
 Flutter에서는 기본 스크롤바를 쉽게 커스터마이즈할 수 있습니다. `ScrollbarTheme` 위젯을 사용하여 스크롤바의 색상, 두께 및 가시성을 조정할 수 있습니다. 아래는 스크롤바를 커스터마이즈하는 방법에 대한 예시입니다.

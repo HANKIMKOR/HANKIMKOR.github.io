@@ -4,7 +4,7 @@ title: "Understanding 'use client' and Server/Client Components in Next.js"
 lang: en
 ref: nextjs-use-client
 categories: [Next.js, React, Dev]
-image: assets/images/category_dev.webp
+image: assets/images/category_next-js.webp
 ---
 
 ## Introduction

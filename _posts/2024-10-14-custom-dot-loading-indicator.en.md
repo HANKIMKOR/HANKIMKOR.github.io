@@ -4,7 +4,7 @@ title: "Creating Custom Dot Loading Indicator in Flutter"
 lang: en
 ref: custom-dot-loading
 categories: [Flutter, Dev]
-image: assets/images/category_dev.webp
+image: assets/images/category_flutter.webp
 ---
 
 In this post, I'll explain how to create a custom loading indicator that displays animated dots (...) in Flutter. This loading indicator shows three dots that fade in and out sequentially, creating a smooth loading animation effect.

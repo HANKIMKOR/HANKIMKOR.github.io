@@ -4,7 +4,7 @@ title: "Understanding Riverpod Providers: A Comprehensive Guide"
 lang: en
 ref: riverpod-providers
 categories: [Flutter, Dev]
-image: assets/images/category_dev.webp
+image: assets/images/category_flutter.webp
 ---
 
 # Understanding Riverpod Providers: A Comprehensive Guide

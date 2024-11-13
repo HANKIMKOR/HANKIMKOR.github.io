@@ -4,7 +4,7 @@ title: "Riverpod Provider 완벽 가이드"
 lang: ko
 ref: riverpod-providers
 categories: [Flutter, Dev]
-image: assets/images/category_dev.webp
+image: assets/images/category_flutter.webp
 ---
 
 # Riverpod Provider 완벽 가이드

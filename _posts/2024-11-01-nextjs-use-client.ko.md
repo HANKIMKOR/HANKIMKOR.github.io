@@ -4,7 +4,7 @@ title: "Next.js의 'use client'와 서버/클라이언트 컴포넌트에 대하
 lang: ko
 ref: nextjs-use-client
 categories: [Next.js, React, Dev]
-image: assets/images/category_dev.webp
+image: assets/images/category_next-js.webp
 ---
 
 ## 소개

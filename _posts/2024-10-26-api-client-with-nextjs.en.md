@@ -4,7 +4,7 @@ title: "Building an API Client in Next.js"
 lang: en
 ref: nextjs-api-client
 categories: [Next.js, TypeScript, Dev]
-image: assets/images/category_dev.webp
+image: assets/images/category_next-js.webp
 ---
 
 ## Introduction

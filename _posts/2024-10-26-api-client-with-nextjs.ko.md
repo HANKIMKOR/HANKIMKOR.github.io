@@ -4,7 +4,7 @@ title: "Next.js에서 API 클라이언트 만들기"
 lang: ko
 ref: nextjs-api-client
 categories: [Next.js, TypeScript, Dev]
-image: assets/images/category_dev.webp
+image: assets/images/category_next-js.webp
 ---
 
 ## 소개
