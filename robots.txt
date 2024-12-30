@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hankimkor.github.io/my_sitemap.xml
