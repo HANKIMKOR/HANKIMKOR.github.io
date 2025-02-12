@@ -20,8 +20,11 @@ post_class: post-template
             <img
               class="featured-image img-fluid rounded"
               src="{{ site.baseurl }}/{{ page.image }}"
-            alt="{{ page.title }}"
-          >
+              alt="{{ page.title }}"
+              loading="lazy"
+              width="800"
+              height="450"
+            >
           {% endif %}
           <!-- End Featured Image -->
 			<div class="mainheading">             

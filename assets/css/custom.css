@@ -17,16 +17,6 @@ dropdown-menu {
   position: absolute;
 }
 
-.row-cols-1 {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.col {
-  display: flex;
-  flex-direction: column;
-}
-
 .card {
   height: 100%;
   width: 100%;

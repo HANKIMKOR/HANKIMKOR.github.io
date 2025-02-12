@@ -193,9 +193,6 @@ small,
     font-size: 2.5em;
   }
 }
-.google-auto-placed {
-  margin-bottom: 2rem;
-}
 .comma:last-child {
   display: none;
 }
@@ -311,7 +308,7 @@ span.post-read-more a {
   color: rgba(0, 0, 0, 0.44);
   align-items: center;
   display: inline-block;
-  float: right;
+  margin-right: auto;
   width: 30px;
   height: 30px;
   line-height: 30px;
@@ -445,37 +442,11 @@ ul.tags li a:hover {
   box-shadow: none;
   font-weight: 400;
 }
-.btn.subscribe {
-  background-color: #1c9963;
-  border-color: #1c9963;
-  color: rgba(255, 255, 255, 1);
-  fill: rgba(255, 255, 255, 1);
-  border-radius: 30px;
-  font-size: 0.85rem;
-  margin-left: 10px;
-  font-weight: 600;
-  text-transform: uppercase;
-}
 .post-top-meta .btn.follow {
   margin-left: 5px;
   margin-top: -4px;
 }
 
-.form-control::-webkit-input-placeholder {
-  color: rgba(0, 0, 0, 0.5);
-}
-.form-control:-moz-placeholder {
-  color: rgba(0, 0, 0, 0.5);
-}
-.form-control::-moz-placeholder {
-  color: rgba(0, 0, 0, 0.5);
-}
-.form-control:-ms-input-placeholder {
-  color: rgba(0, 0, 0, 0.5);
-}
-.form-control::-ms-input-placeholder {
-  color: rgba(0, 0, 0, 0.5);
-}
 .form-control {
   border: 1px solid #eee;
   border-radius: 0;
