@@ -7,8 +7,6 @@ categories: [Flutter, Dev]
 image: assets/images/category_flutter.webp
 ---
 
-# Riverpod Provider 완벽 가이드
-
 ## 소개
 
 Riverpod는 기존 Provider 패키지를 개선한 Flutter의 강력한 상태 관리 솔루션입니다. 그 핵심에는 Provider가 있으며, 이는 애플리케이션 전체에서 상태를 관리하고 접근하는 데 도움을 주는 기본 구성 요소입니다.
