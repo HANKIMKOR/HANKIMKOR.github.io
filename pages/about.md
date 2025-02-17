@@ -9,7 +9,7 @@ permalink: "/about/"
 
 **Developer who loves history**  
 📧 [forhankyul@gmail.com](mailto:forhankyul@gmail.com)  
-🔗 [LinkedIn](https://www.linkedin.com/in/hankyul-kim-a09aa2156/) | [GitHub](https://github.com/hankimkor) | [Blog](https://hankimkor.github.io/)
+🔗 [LinkedIn](https://www.linkedin.com/in/hankyul-kim-a09aa2156/) | [GitHub](https://github.com/hankimkor) | [HomePage](https://www.codemapo.com/)| [Blog](https://blog.codemapo.com/)
 
 ### Work Experience
 
