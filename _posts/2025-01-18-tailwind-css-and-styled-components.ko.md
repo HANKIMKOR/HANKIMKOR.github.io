@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tailwind CSS vs styled-components"
+title: "Tailwind CSS 와 styled-components"
 lang: ko
 ref: tailwind-css-and-styled-components
 categories: [Tailwind CSS, styled-components, Web]
