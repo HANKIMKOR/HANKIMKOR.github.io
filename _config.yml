@@ -30,11 +30,9 @@ google_analytics: G-4G67JR7FJS
 # Authors
 authors:
   HANKIM:
-    name: HANKIM
-    display_name: HANKIM
+    name: CODEMAPO
+    display_name: CODEMAPO
     avatar: "assets/images/logo.webp"
-    email: forhankyul@gmail.com
-    web: https://hankimkor.github.io
     description: "HELLO"
 
 # Social
